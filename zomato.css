@@ -1,0 +1,251 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+body{
+  font-family:'Okra', Helvetica, sans-serif ;
+}
+a{
+    text-decoration: none;
+}
+.img{
+  background-image: url("zomato.png");
+  background-size: cover;
+  height:100vh;
+  position: relative;
+ margin:0;
+}
+.anchors{
+  padding-left: 63%;
+  font-size: 16px;
+ padding-top: 20px;
+
+
+}
+.anchors a{
+  color:white;
+  padding-right: 20px;
+  letter-spacing: 1.5px;
+}
+.text{
+  color:white;
+  position:absolute;
+  top:45%;
+  left:30%;
+  font-family: 'Okra', Helvetica, sans-serif ;;
+}
+.text h1{
+  
+  font-size: 62px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.text span{
+  
+  font-size: 40px;
+  font-weight: 300;
+ 
+  margin-right: 30px;
+}
+.text-two{
+  margin-left:60%;
+}
+.main{
+  padding: 20px;
+  color:black;
+}
+.main-img{
+  height:40px;
+  width:70px;
+  margin-right: 7px;
+}
+.main-heading{
+  padding:10px 7px 10px 7px ;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading h2{
+  font-size: 40px;
+  font-weight: 100;
+}
+.main-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px ;
+}
+.main-content span{
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  opacity: 0.8;
+}
+.resturant{
+  display: flex;
+  flex-wrap: wrap;
+}
+.resturant-first{
+  height:60px;
+  width:350px;
+  border:0.2px solid black;
+  background-color: white;
+  border-radius: 5px;
+  margin: 35px 50px 20px 5px;
+
+
+}
+.first{
+  display:flex;
+  justify-content: space-between;
+ align-items: center;
+  margin-top: 15px;
+  
+}
+ .first-para{
+  margin-left: 20px;
+  font-size: 25px;
+}
+.first i{
+  font-size: 25px;
+  margin-right: 10px;
+}
+.resturant-first:hover{
+ box-shadow: 5px 7px 0.7px rgba(231, 224, 224, 0.5);
+}
+.countries{
+  padding: 25px;
+
+}
+.countries h2{
+  font-size: 30px;
+  font-weight: 600;
+}
+.countries-img{
+  height:40px;
+  width:70px;
+  margin-right: 7px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.countries-content{
+  font-size: 25px;
+ text-align: center;
+}
+.countries-flex{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.countries-name{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:60px;
+  width:350px;
+  border:0.2px solid black;
+  background-color: white;
+  border-radius: 7px;
+  margin: 35px 50px 20px 5px;
+  
+}
+.countries-logo{
+  display: flex;
+}
+.countries-icon i{
+  font-size: 25px;
+  margin-right: 20px;
+}
+.countries-name:hover{
+  transform: scale(5px);
+}
+footer{
+  padding:30px;
+  background-color: rgb(248,248,248);
+}
+.main-footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-footer{
+  display: flex;
+  margin-right: 20px;
+}
+.box-footer-1{
+  height:38px;
+  width:100px;
+  border:0.5px solid black;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 7px;
+}
+.footer-img{
+  height: 20px;
+  width:20px;
+  margin-left: 5px;
+}
+.box-1{
+  font-size: 25px;
+}
+.box-footer-2{
+  height:38px;
+  width:100px;
+  border:0.5px solid black;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+  margin-left: 8px;
+}
+.about{
+  padding:30px;
+  display:flex;
+  padding-left: 10px;
+}
+.about-anchors{
+  display:grid;
+  grid-column: auto;
+  line-height: 25px;
+  padding-right: 100px;
+}
+.about-anchors a{
+ color:black;
+ opacity:0.7;
+ letter-spacing: 1px;
+}
+.about-one h3{
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.about-icons i{
+    margin-right:10px;
+    text-align: center;
+    font-size:20px;
+    margin-bottom: 20px;
+    opacity:0.8;
+}
+.about-icons i:hover{
+  opacity:1;
+}
+.about-img{
+  margin-left:5px;
+
+}
+.about-img-us{
+  height:80px;
+  width:120px;
+
+}
+.footer-line{
+  padding:40px;
+}
+.footer-line-main{
+ height:2px;
+ width:100%;
+ border:2px solid black;
+}
